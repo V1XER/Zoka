@@ -1,0 +1,124 @@
+:root {
+  font-size: 24px;
+  font-family: Arial;
+}
+* {
+  box-sizing: content-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  /*     background-image: url(/assets/media/bg.jpg); */
+  /*     background-size: 10rem; */
+}
+#main {
+  padding: 1rem 6rem 0rem 6rem;
+}
+.nav-sample {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.5rem;
+}
+#brandlogo {
+  margin: 0rem 0rem 1rem 0rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.34rem;
+}
+.nav {
+  display: inline-flex;
+  height: 0rem;
+}
+#navlist {
+  padding: 0rem;
+  display: inline-flex;
+  gap: 2rem;
+  flex-direction: row;
+  margin: 0rem;
+  margin-top: 0.3rem;
+}
+.navitem {
+  display: inline;
+}
+.navitem > a {
+  text-decoration: none;
+  color: inherit;
+}
+#youtube-card {
+  box-sizing: border-box;
+  height: 2rem;
+  width: 6rem;
+  border: 2px #3638a2 solid;
+  border-radius: 0.8rem;
+  display: inline-flex;
+  overflow: hidden;
+  padding: 7px 5px 5px 12px;
+}
+#youtube-card > a {
+  text-decoration: none;
+  color: #3638a2;
+}
+#youtube-card > a:visited {
+  color: #3638a2;
+}
+
+#hero-section {
+  display: flex;
+  gap: 10rem;
+  align-items: stretch;
+}
+#title {
+  font-size: 2.5rem;
+  padding-left: 3rem;
+}
+h1 {
+  width: 20rem;
+  margin: 0rem;
+  color: #19093B;
+}
+#paragraph {
+  font-size: 1rem;
+    margin-top: 1.5rem;
+}
+#button{
+    width: 13.5rem ;
+height: 2.5rem;
+    text-align: center;
+    background-color:#3F41A6 ;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    padding-top: 0.4rem;
+    box-sizing: border-box;
+}
+#button>a{
+    text-decoration: none;
+    color: white;
+}
+#button>a:visited{
+    color: white;
+}
+#nextico{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+#showcase {
+  width: 35rem;
+}
+#pic1 {
+  width: 33rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+#pic2 {
+  width: 14rem;
+  border-radius: 1rem;
+  height: 10rem;
+  margin-right: 0.5rem;
+}
+#pic3 {
+  width: 18rem;
+  border-radius: 1rem;
+  height: 10rem;
+}
